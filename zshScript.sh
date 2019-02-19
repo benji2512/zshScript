@@ -1,7 +1,7 @@
 #Only works on Ubuntu,Debian and derivitives. Also requires root priviliages
 cd ~
 sudo apt install zsh
-chsh -s /bin/zsh
+chsh -s ~/bin/zsh root
 echo $SHELL
 apt install wget git
 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
