@@ -7,7 +7,8 @@ elif [ $NAME = 'openSUSE' ]
 then
    sudo zypper install zsh;
 fi
-sudo chsh -s /usr/bin/zsh root
+echo 'Next command is chsh and this needs your root password. Change the shell path to /usr/bin/zsh and continue.'
+chsh
 echo $SHELL
 if [ $NAME = 'Ubuntu' ]
 then
@@ -20,4 +21,3 @@ wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - 
 git clone https://github.com/benji2512/zshrcSetUp
 cp ~/zshrcSetUp/.zshrc ~/.zshrc
 source ~/.zshrc
-
