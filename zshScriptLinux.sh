@@ -19,6 +19,6 @@ then
 fi
 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
 git clone https://github.com/benji2512/zshrcSetUp
-cp ~/zshrcSetUp/.zshrc ~/.zshrc
+cp ~/zshrcSetUp/.zshrcLinux ~/.zshrc
 source ~/.zshrc
 echo 'Please now run su - <USERNAME> to check that the install was completed successfully. Then restart system for changes to take.'
